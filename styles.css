@@ -1,0 +1,125 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #369523;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Header styles - Demonstrating margin and padding */
+.site-header {
+    background-color: #3879b9;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 5px solid #53dfd1;
+}
+
+.site-header h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Navigation styles - Showing inline-block spacing */
+.main-nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.main-nav a:hover {
+    background-color: #d3c41c;
+}
+
+/* Main container - Centering with margin auto */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+}
+
+/* Content section - Padding and border example */
+.content-section {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.content-section h2 {
+    color: #b436ca;
+    margin-bottom: 1rem;
+}
+
+.content-section p {
+    margin-bottom: 1rem;
+}
+
+/* Button styles - Padding for clickable area */
+.learn-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.learn-btn:hover {
+    background-color: #1eef48;
+}
+
+/* Card container - Flexbox with gap (modern margin alternative) */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+/* Individual cards - Demonstrating padding and margin */
+.card {
+    flex: 1 1 200px;
+    background-color: white;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #e74c3c;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer styles - Margin-top for separation */
+.site-footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 5px solid #1815d6;
+}
